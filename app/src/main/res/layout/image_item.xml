@@ -1,0 +1,119 @@
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data/>
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/eventitem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp">
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/eventdateandimg_constraint_layout"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/item1_view_holder_eventdateandimg_constraint_layout_height"
+            android:layout_marginLeft="@dimen/item1_view_holder_eventdateandimg_constraint_layout_margin_start"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="@dimen/item1_view_holder_eventdateandimg_constraint_layout_margin_end"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/image_view_upload"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/item1_view_holder_eventimg_image_view_margin_start"
+                android:scaleType="centerCrop"
+                android:src="@drawable/mask_12"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/eventnameloc_constraint_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/item1_view_holder_eventnameloc_constraint_layout_margin_top"
+                android:layout_marginRight="@dimen/item1_view_holder_eventnameloc_constraint_layout_margin_end"
+                android:background="@color/event_details_activity_raised_button_button_background_color"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:id="@+id/text_view_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:gravity="end"
+                    android:letterSpacing="0.03"
+                    android:text="@string/item1_view_holder_eventname_text_view_text"
+                    android:textColor="@color/item1_two_view_holder_providername_text_view_text_color"
+                    android:textSize="18sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </android.support.constraint.ConstraintLayout>
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/eventdate_constraint_layout"
+                android:layout_width="@dimen/item1_view_holder_eventdate_constraint_layout_width"
+                android:layout_height="@dimen/item1_view_holder_eventdate_constraint_layout_height"
+                android:layout_marginTop="@dimen/item1_view_holder_eventdate_constraint_layout_margin_top"
+                android:background="@drawable/item1_view_holder_eventdate_constraint_layout_background"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="16dp">
+
+                <TextView
+                    android:id="@+id/post_time"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/item1_view_holder_eventdate_text_view_margin_start"
+                    android:layout_marginRight="@dimen/item1_view_holder_eventdate_text_view_margin_end"
+                    android:gravity="center"
+                    android:letterSpacing="0.03"
+                    android:textColor="@color/item1_view_holder_eventdate_text_view_text_color"
+                    android:textSize="@dimen/item1_view_holder_eventdate_text_view_text_size"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:text="@string/item1_view_holder_eventdate_text_view_text" />
+            </android.support.constraint.ConstraintLayout>
+        </android.support.constraint.ConstraintLayout>
+
+        <TextView
+            android:id="@+id/post_descreption"
+            android:layout_width="@dimen/item1_view_holder_eventdesc_text_view_width"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/item1_view_holder_eventdesc_text_view_margin_start"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="@dimen/item1_view_holder_eventdesc_text_view_margin_end"
+            android:layout_marginBottom="8dp"
+            android:gravity="start"
+            android:lineSpacingMultiplier="1.26"
+            android:text="@string/item1_view_holder_eventdesc_text_view_text"
+            android:textColor="@color/item1_view_holder_eventdesc_text_view_text_color"
+            android:textSize="@dimen/item1_view_holder_eventdesc_text_view_text_size"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.47"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/eventdateandimg_constraint_layout" />
+
+    </android.support.constraint.ConstraintLayout>
+</layout>

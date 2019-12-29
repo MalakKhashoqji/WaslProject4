@@ -1,0 +1,212 @@
+<resources>
+	
+	<!-- Project level resources -->
+	<color name="color_primary">#000000</color>
+	<color name="color_primary_dark">#000000</color>
+	<color name="color_accent">#000000</color>
+	<color name="click_overlay">#000000</color>
+	<color name="default_hint">#C6C6CB</color>
+	<color name="material_bottom_sheet_title">#8a000000</color>
+	<color name="material_bottom_sheet_item">#de000000</color>
+
+
+	<color name="colorTransparentWhite">#cccc</color>
+
+	<!-- Customize your theme here. -->
+	<color name="colorPrimary">#67B1A7</color>
+	<color name="colorPrimaryDark">#24776B</color>
+	<color name="colorAccent">#FFFFFF</color>
+
+	<!-- RegisterTwoActivity -->
+	<color name="register_two_activity_register_constraint_layout_background_color">#FFFFFF</color>
+	<color name="register_two_activity_register_constraint_layout_border_color">#979797</color>
+	<color name="register_two_activity_copyright_text_view_text_color">#FFFFFF</color>
+	<color name="register_two_activity_solution_text_view_text_color">#FFFFFF</color>
+	<color name="register_two_activity_signup_button_background_color">#FFFFFF</color>
+	<color name="register_two_activity_signup_button_text_color">#008775</color>
+	<color name="register_two_activity_login_button_background_color">#FFFFFF</color>
+	<color name="register_two_activity_login_button_text_color">#008775</color>
+	
+	<!-- SignUpActivity -->
+	<color name="sign_up_activity_sign_up_constraint_layout_background_color">#F5F6F7</color>
+	<color name="sign_up_activity_confirm_password_constraint_layout_background_color">#F5F6F7</color>
+	<color name="sign_up_activity_confirm_password_constraint_layout_border_color">#CFD0D1</color>
+	<color name="sign_up_activity_password_constraint_layout_background_color">#F5F6F7</color>
+	<color name="sign_up_activity_password_constraint_layout_border_color">#CFD0D1</color>
+	<color name="sign_up_activity_email_constraint_layout_background_color">#F5F6F7</color>
+	<color name="sign_up_activity_email_constraint_layout_border_color">#CFD0D1</color>
+	<color name="sign_up_activity_username_constraint_layout_background_color">#F5F6F7</color>
+	<color name="sign_up_activity_username_constraint_layout_border_color">#CFD0D1</color>
+	<color name="sign_up_activity_username_copy_constraint_layout_background_color">#F5F6F7</color>
+	<color name="sign_up_activity_username_copy_constraint_layout_border_color">#CFD0D1</color>
+	<color name="sign_up_activity_field_constraint_layout_background_color">#F5F6F7</color>
+	<color name="sign_up_activity_field_constraint_layout_border_color">#CFD0D1</color>
+	<color name="sign_up_activity_field_copy_constraint_layout_background_color">#F5F6F7</color>
+	<color name="sign_up_activity_field_copy_constraint_layout_border_color">#CFD0D1</color>
+	<color name="sign_up_activity_id_edit_text_background_color">@android:color/transparent</color>
+	<color name="sign_up_activity_id_edit_text_text_color">#979899</color>
+	<color name="sign_up_activity_username_edit_text_background_color">@android:color/transparent</color>
+	<color name="sign_up_activity_username_edit_text_text_color">#979899</color>
+	<color name="sign_up_activity_email_address_edit_text_background_color">@android:color/transparent</color>
+	<color name="sign_up_activity_email_address_edit_text_text_color">#979899</color>
+	<color name="sign_up_activity_password_edit_text_background_color">@android:color/transparent</color>
+	<color name="sign_up_activity_password_edit_text_text_color">#979899</color>
+	<color name="sign_up_activity_confirm_password_edit_text_background_color">@android:color/transparent</color>
+	<color name="sign_up_activity_confirm_password_edit_text_text_color">#979899</color>
+	<color name="sign_up_activity_oval_constraint_layout_background_color">#F5F6F7</color>
+	<color name="sign_up_activity_oval_constraint_layout_border_color">#9B9999</color>
+	<color name="sign_up_activity_oval_two_constraint_layout_background_color">#F5F6F7</color>
+	<color name="sign_up_activity_oval_two_constraint_layout_border_color">#9B9999</color>
+	<color name="sign_up_activity_male_text_view_text_color">#FFFFFF</color>
+	<color name="sign_up_activity_female_text_view_text_color">#FFFFFF</color>
+	<color name="sign_up_activity_select_your_college_text_view_text_color">#979899</color>
+	<color name="sign_up_activity_select_your_departme_text_view_text_color">#979899</color>
+	<color name="sign_up_activity_buttons_button_background_color">#FFFFFF</color>
+	<color name="sign_up_activity_buttons_button_text_color">#01685A</color>
+	<color name="sign_up_activity_buttons_button_border_color">#979797</color>
+	<color name="sign_up_activity_segmented_control_tab_bar_background_color">#9D1BB7A1</color>
+	<color name="sign_up_activity_segmented_control_tab_bar_text_color">#000000</color>
+	
+	<!-- SignUpOrganizerActivity -->
+	<color name="sign_up_organizer_activity_sign_up_constraint_layout_background_color">#F5F6F7</color>
+	<color name="sign_up_organizer_activity_sign_up_constraint_layout_border_color">#979797</color>
+	<color name="sign_up_organizer_activity_confirm_password_constraint_layout_background_color">#F5F6F7</color>
+	<color name="sign_up_organizer_activity_confirm_password_constraint_layout_border_color">#CFD0D1</color>
+	<color name="sign_up_organizer_activity_password_constraint_layout_background_color">#F5F6F7</color>
+	<color name="sign_up_organizer_activity_password_constraint_layout_border_color">#CFD0D1</color>
+	<color name="sign_up_organizer_activity_email_constraint_layout_background_color">#F5F6F7</color>
+	<color name="sign_up_organizer_activity_email_constraint_layout_border_color">#CFD0D1</color>
+	<color name="sign_up_organizer_activity_username_constraint_layout_background_color">#F5F6F7</color>
+	<color name="sign_up_organizer_activity_username_constraint_layout_border_color">#CFD0D1</color>
+	<color name="sign_up_organizer_activity_field_constraint_layout_background_color">#F5F6F7</color>
+	<color name="sign_up_organizer_activity_field_constraint_layout_border_color">#CFD0D1</color>
+	<color name="sign_up_organizer_activity_id_edit_text_background_color">@android:color/transparent</color>
+	<color name="sign_up_organizer_activity_id_edit_text_text_color">#979899</color>
+	<color name="sign_up_organizer_activity_username_edit_text_background_color">@android:color/transparent</color>
+	<color name="sign_up_organizer_activity_username_edit_text_text_color">#000000</color>
+	<color name="sign_up_organizer_activity_email_address_edit_text_background_color">@android:color/transparent</color>
+	<color name="sign_up_organizer_activity_email_address_edit_text_text_color">#000000</color>
+	<color name="sign_up_organizer_activity_password_edit_text_background_color">@android:color/transparent</color>
+	<color name="sign_up_organizer_activity_password_edit_text_text_color">#000000</color>
+	<color name="sign_up_organizer_activity_confirm_password_edit_text_background_color">@android:color/transparent</color>
+	<color name="sign_up_organizer_activity_confirm_password_edit_text_text_color">#000000</color>
+	<color name="sign_up_organizer_activity_email_copy_constraint_layout_background_color">#F5F6F7</color>
+	<color name="sign_up_organizer_activity_email_copy_constraint_layout_border_color">#CFD0D1</color>
+	<color name="sign_up_organizer_activity_select_your_deanship_text_view_text_color">#979899</color>
+	<color name="sign_up_organizer_activity_buttons_button_background_color">#FFFFFF</color>
+	<color name="sign_up_organizer_activity_buttons_button_text_color">#008775</color>
+	<color name="sign_up_organizer_activity_buttons_button_border_color">#979797</color>
+	<color name="sign_up_organizer_activity_oval_constraint_layout_background_color">#F5F6F7</color>
+	<color name="sign_up_organizer_activity_oval_constraint_layout_border_color">#9B9999</color>
+	<color name="sign_up_organizer_activity_oval_two_constraint_layout_background_color">#F5F6F7</color>
+	<color name="sign_up_organizer_activity_oval_two_constraint_layout_border_color">#9B9999</color>
+	<color name="sign_up_organizer_activity_male_text_view_text_color">#FFFFFF</color>
+	<color name="sign_up_organizer_activity_female_text_view_text_color">#FFFFFF</color>
+	<color name="sign_up_organizer_activity_segmented_control_tab_bar_background_color">#9D1BB7A1</color>
+	<color name="sign_up_organizer_activity_segmented_control_tab_bar_text_color">#000000</color>
+	
+	<!-- SignInActivity -->
+	<color name="sign_in_activity_sign_in_error_constraint_layout_background_color">#FFFFFF</color>
+	<color name="sign_in_activity_sign_in_error_constraint_layout_border_color">#979797</color>
+	<color name="sign_in_activity_forgot_password_button_text_color">#5B5A5A</color>
+	<color name="sign_in_activity_password_constraint_layout_background_color">#F5F6F7</color>
+	<color name="sign_in_activity_password_constraint_layout_border_color">#CFD0D1</color>
+	<color name="sign_in_activity_email_constraint_layout_background_color">#F5F6F7</color>
+	<color name="sign_in_activity_email_constraint_layout_border_color">#CFD0D1</color>
+	<color name="sign_in_activity_username_id_edit_text_background_color">@android:color/transparent</color>
+	<color name="sign_in_activity_username_id_edit_text_text_color">#000000</color>
+	<color name="sign_in_activity_password_edit_text_background_color">@android:color/transparent</color>
+	<color name="sign_in_activity_password_edit_text_text_color">#000000</color>
+	<color name="sign_in_activity_signin_button_background_color">#FFFFFF</color>
+	<color name="sign_in_activity_signin_button_text_color">#008775</color>
+	<color name="sign_in_activity_signin_button_border_color">#979797</color>
+	<color name="sign_in_activity_ico_close_modal_button_text_color">#000000</color>
+	
+	<!-- EventsHomeActivity -->
+	<color name="events_home_activity_feed_constraint_layout_background_color">#F9FAFB</color>
+	<color name="events_home_activity_feed_constraint_layout_border_color">#979797</color>
+	<color name="item1_view_holder_eventitem_background_color">#E3E1E1</color>
+	<color name="item1_view_holder_eventitem_border_color">#979797</color>
+	<color name="item1_view_holder_eventname_text_view_text_color">#FFFFFF</color>
+	<color name="item1_view_holder_eventloc_text_view_text_color">#FFFFFF</color>
+	<color name="item1_view_holder_eventdate_constraint_layout_background_color">#1E9283</color>
+	<color name="item1_view_holder_eventdate_constraint_layout_border_color">#979797</color>
+	<color name="item1_view_holder_eventdate_text_view_text_color">#FFFFFF</color>
+	<color name="item1_view_holder_eventdesc_text_view_text_color">#000000</color>
+	<color name="item1_view_holder_providername_text_view_text_color">#008775</color>
+	<color name="item1_view_holder_eventposttime_text_view_text_color">#878787</color>
+	<color name="item1_two_view_holder_eventitem_background_color">#FFFFFF</color>
+	<color name="item1_two_view_holder_eventitem_border_color">#979797</color>
+	<color name="item1_two_view_holder_eventname_text_view_text_color">#FFFFFF</color>
+	<color name="item1_two_view_holder_eventloc_text_view_text_color">#FFFFFF</color>
+	<color name="item1_two_view_holder_eventdate_constraint_layout_background_color">#1E9283</color>
+	<color name="item1_two_view_holder_eventdate_constraint_layout_border_color">#979797</color>
+	<color name="item1_two_view_holder_eventdate_text_view_text_color">#FFFFFF</color>
+	<color name="item1_two_view_holder_eventdesc_text_view_text_color">#878787</color>
+	<color name="item1_two_view_holder_providername_text_view_text_color">#FFFFFF</color>
+	<color name="item1_two_view_holder_eventposttime_text_view_text_color">#878787</color>
+	<color name="item1_three_view_holder_eventitem_background_color">#FFFFFF</color>
+	<color name="item1_three_view_holder_eventitem_border_color">#979797</color>
+	<color name="item1_three_view_holder_eventname_text_view_text_color">#FFFFFF</color>
+	<color name="item1_three_view_holder_eventloc_text_view_text_color">#FFFFFF</color>
+	<color name="item1_three_view_holder_eventdate_constraint_layout_background_color">#1E9283</color>
+	<color name="item1_three_view_holder_eventdate_constraint_layout_border_color">#979797</color>
+	<color name="item1_three_view_holder_eventdate_text_view_text_color">#FFFFFF</color>
+	<color name="item1_three_view_holder_eventdesc_text_view_text_color">#878787</color>
+	<color name="item1_three_view_holder_providername_text_view_text_color">#008775</color>
+	<color name="item1_three_view_holder_eventposttime_text_view_text_color">#878787</color>
+	<color name="events_home_activity_attending_button_pressed_text_color">#302D2D</color>
+	<color name="events_home_activity_attending_button_selected_text_color">#060606</color>
+	<color name="events_home_activity_attending_button_text_color">#757575</color>
+	<color name="events_home_activity_attending_two_button_pressed_text_color">#302D2D</color>
+	<color name="events_home_activity_attending_two_button_selected_text_color">#060606</color>
+	<color name="events_home_activity_attending_two_button_text_color">#757575</color>
+	<color name="events_home_activity_upcoming_button_pressed_text_color">#302D2D</color>
+	<color name="events_home_activity_upcoming_button_selected_text_color">#000000</color>
+	<color name="events_home_activity_upcoming_button_text_color">#757575</color>
+	<color name="events_home_activity_toolbar_text_color">#FFFFFF</color>
+	
+	<!-- SerachEventsActivity -->
+	<color name="serach_events_activity_expandable_constraint_layout_background_color">#F9FAFB</color>
+	<color name="serach_events_activity_expandable_constraint_layout_border_color">#979797</color>
+	<color name="serach_events_activity_search_search_view_text_color">#000000</color>
+	<color name="item_view_holder_item_background_color">#FFFFFF</color>
+	<color name="item_view_holder_item_border_color">#979797</color>
+	<color name="item_view_holder_jose_edwards_text_view_text_color">#1D9688</color>
+	<color name="item_view_holder_copenhagen_denmark_text_view_text_color">#878787</color>
+	<color name="item_two_view_holder_item_background_color">#FFFFFF</color>
+	<color name="item_two_view_holder_item_border_color">#979797</color>
+	<color name="item_two_view_holder_karen_stewart_text_view_text_color">#25998B</color>
+	<color name="item_two_view_holder_new_york_usa_text_view_text_color">#878787</color>
+	<color name="serach_events_activity_toolbar_text_color">#FFFFFF</color>
+	
+	<!-- EventDetailsActivity -->
+	<color name="event_details_activity_feed_constraint_layout_background_color">#FFFFFF</color>
+	<color name="event_details_activity_bg_constraint_layout_background_color">#F9FAFB</color>
+	<color name="event_details_activity_bg_constraint_layout_border_color">#979797</color>
+	<color name="event_details_activity_user_constraint_layout_background_color">#F9FAFB</color>
+	<color name="event_details_activity_user_constraint_layout_border_color">#979797</color>
+	<color name="event_details_activity_jordan_robinson_button_text_color">#008775</color>
+	<color name="event_details_activity_layer1_button_text_color">#000000</color>
+	<color name="event_details_activity_today145_pm_text_view_text_color">#878787</color>
+	<color name="event_details_activity_raised_button_button_background_color">#1E9283</color>
+	<color name="event_details_activity_raised_button_button_text_color">#FFFFFF</color>
+	<color name="event_details_activity_bg_two_constraint_layout_background_color">#F9FAFB</color>
+	<color name="event_details_activity_bg_two_constraint_layout_border_color">#979797</color>
+	<color name="event_details_activity_for_text_view_text_color">#DE000000</color>
+	<color name="event_details_activity_amelie_nmason_text_view_text_color">#8B000000</color>
+	<color name="event_details_activity_address_text_view_text_color">#DE000000</color>
+	<color name="event_details_activity_greyfriars_road_text_view_text_color">#8B000000</color>
+	<color name="event_details_activity_time_text_view_text_color">#DE000000</color>
+	<color name="event_details_activity_greyfriars_road_two_text_view_text_color">#8B000000</color>
+	<color name="event_details_activity_oval_constraint_layout_background_color">#1E9283</color>
+	<color name="event_details_activity_about_text_view_text_color">#DE000000</color>
+	<color name="event_details_activity_lorem_ipsum_dolor_si_text_view_text_color">#8B000000</color>
+	<color name="event_details_activity_buttons_constraint_layout_background_color">#F9FAFB</color>
+	<color name="event_details_activity_buttons_constraint_layout_border_color">#979797</color>
+	<color name="event_details_activity_raised_button_two_button_background_color">#D8DADA</color>
+	<color name="event_details_activity_raised_button_two_button_text_color">#FFFFFF</color>
+	<color name="event_details_activity_raised_button_three_button_background_color">#767676</color>
+	<color name="event_details_activity_raised_button_three_button_text_color">#FFFFFF</color>
+	<color name="event_details_activity_toolbar_text_color">#FFFFFF</color>
+</resources>

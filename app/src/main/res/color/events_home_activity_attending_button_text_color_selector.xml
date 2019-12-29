@@ -1,0 +1,5 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:state_selected="true" android:color="@color/events_home_activity_attending_button_selected_text_color"/>
+	<item android:state_pressed="true" android:color="@color/events_home_activity_attending_button_pressed_text_color"/>
+	<item android:color="@color/events_home_activity_attending_button_text_color"/>
+</selector>

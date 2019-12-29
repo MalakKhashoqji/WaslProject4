@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.company_name.wasl_project4">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".activity.MainActivity"><intent-filter>
+            <category android:name="android.intent.category.LAUNCHER" />
+
+            <action android:name="android.intent.action.MAIN" />
+        </intent-filter></activity>
+        <activity
+            android:name=".activity.studet_staff_homePage"
+            android:label="@string/title_activity_studet_staff_home_page" />
+        <activity android:name=".activity.get_images" />
+        <activity android:name=".activity.myEvents" />
+        <activity
+            android:name=".activity.HomePage"
+            android:label="@string/title_activity_home_page"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".activity.add_event" />
+        <activity android:name=".activity.editOrganizerProfile" />
+        <activity android:name=".activity.organizerProfile" />
+        <activity android:name=".activity.homeEvent"></activity>
+        <activity
+            android:name=".activity.RegisterTwoActivity"
+            android:label="@string/register_two_activity_title"
+            android:theme="@style/RegisterTwoActivityTheme">
+
+        </activity>
+        <activity
+            android:name=".activity.SignUpActivity"
+            android:label="@string/sign_up_activity_title"
+            android:theme="@style/SignUpActivityTheme" />
+        <activity
+            android:name=".activity.SignInActivity"
+            android:label="@string/sign_in_activity_title"
+            android:theme="@style/SignInActivityTheme" />
+    </application>
+
+</manifest>

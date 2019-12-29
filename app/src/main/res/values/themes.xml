@@ -1,0 +1,28 @@
+<resources>
+	
+	<!-- Project level resources -->
+	<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+		<item name="colorPrimary">@color/color_primary</item>
+		<item name="colorPrimaryDark">@color/color_primary_dark</item>
+		<item name="colorAccent">@color/color_accent</item>
+	</style>
+
+	
+	<!-- RegisterTwoActivity -->
+	<style name="RegisterTwoActivityTheme" parent="Theme.AppCompat.NoActionBar"/>
+	
+	<!-- SignUpActivity -->
+	<style name="SignUpActivityTheme" parent="Theme.AppCompat.NoActionBar"/>
+	
+	<!-- SignUpOrganizerActivity -->
+	<style name="SignUpOrganizerActivityTheme" parent="Theme.AppCompat.NoActionBar"/>
+	
+	<!-- SignInActivity -->
+	<style name="SignInActivityTheme" parent="Theme.AppCompat.NoActionBar"/>
+	
+	<!-- EventsHomeActivity -->
+	<style name="EventsHomeActivityTheme" parent="Theme.AppCompat.NoActionBar"/>
+
+	<!-- EventDetailsActivity -->
+	<style name="EventDetailsActivityTheme" parent="Theme.AppCompat.NoActionBar"/>
+</resources>

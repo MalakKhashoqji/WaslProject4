@@ -1,0 +1,148 @@
+<layout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools">
+
+	<data/>
+
+	<android.support.constraint.ConstraintLayout
+		android:id="@+id/sign_in_error_constraint_layout"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:background="@color/sign_in_activity_sign_in_error_constraint_layout_background_color">
+	
+		<Button
+			android:id="@+id/forgot_password_button"
+			android:layout_width="@dimen/sign_in_activity_forgot_password_button_width"
+			android:layout_height="@dimen/sign_in_activity_forgot_password_button_height"
+			android:layout_marginRight="@dimen/sign_in_activity_forgot_password_button_margin_end"
+			android:layout_marginTop="@dimen/sign_in_activity_forgot_password_button_margin_top"
+			android:background="?attr/selectableItemBackground"
+			android:gravity="start"
+			android:text="@string/sign_in_activity_forgot_password_button_text"
+			android:textColor="@color/sign_in_activity_forgot_password_button_text_color"
+			android:textSize="@dimen/sign_in_activity_forgot_password_button_text_size"
+			app:layout_constraintRight_toRightOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/password_constraint_layout"
+			tools:layout_editor_absoluteX="232dp"
+			tools:layout_editor_absoluteY="344dp"/>
+	
+		<View
+			android:id="@+id/password_constraint_layout"
+			android:layout_width="@dimen/sign_in_activity_password_constraint_layout_width"
+			android:layout_height="@dimen/sign_in_activity_password_constraint_layout_height"
+			android:layout_marginTop="@dimen/sign_in_activity_password_constraint_layout_margin_top"
+			android:background="@drawable/sign_in_activity_password_constraint_layout_background"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintRight_toRightOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/username_id_edit_text"
+			tools:layout_editor_absoluteX="43dp"
+			tools:layout_editor_absoluteY="285dp"/>
+	
+		<View
+			android:id="@+id/email_constraint_layout"
+			android:layout_width="@dimen/sign_in_activity_email_constraint_layout_width"
+			android:layout_height="@dimen/sign_in_activity_email_constraint_layout_height"
+			android:layout_marginTop="@dimen/sign_in_activity_email_constraint_layout_margin_top"
+			android:background="@drawable/sign_in_activity_email_constraint_layout_background"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintRight_toRightOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/man_user_image_view"
+			tools:layout_editor_absoluteX="43dp"
+			tools:layout_editor_absoluteY="236dp"/>
+
+		<EditText
+			android:id="@+id/username_id_edit_text"
+			android:layout_width="@dimen/sign_in_activity_username_id_edit_text_width"
+			android:layout_height="@dimen/sign_in_activity_username_id_edit_text_height"
+			android:layout_marginStart="8dp"
+			android:background="@color/sign_in_activity_username_id_edit_text_background_color"
+			android:gravity="start|center_vertical"
+			android:hint="Your Email Here"
+			android:inputType="text"
+			android:maxLines="1"
+			android:textColor="@color/sign_in_activity_username_id_edit_text_text_color"
+			android:textColorHint="@color/default_hint"
+			android:textSize="14sp"
+			app:layout_constraintBottom_toBottomOf="@+id/email_constraint_layout"
+			app:layout_constraintStart_toStartOf="@+id/email_constraint_layout"
+			app:layout_constraintTop_toTopOf="@+id/email_constraint_layout" />
+
+		<EditText
+			android:id="@+id/password_edit_text"
+			android:layout_width="@dimen/sign_in_activity_password_edit_text_width"
+			android:layout_height="@dimen/sign_in_activity_password_edit_text_height"
+			android:layout_marginTop="8dp"
+			android:layout_marginBottom="8dp"
+			android:background="@color/sign_in_activity_password_edit_text_background_color"
+			android:gravity="start|center_vertical"
+			android:hint="@string/sign_in_activity_password_edit_text_hint"
+			android:inputType="textPassword"
+			android:maxLines="1"
+			android:textColor="@color/sign_in_activity_password_edit_text_text_color"
+			android:textColorHint="@color/default_hint"
+			android:textSize="14sp"
+			app:layout_constraintBottom_toBottomOf="@+id/password_constraint_layout"
+			app:layout_constraintEnd_toEndOf="@+id/password_constraint_layout"
+			app:layout_constraintStart_toStartOf="@+id/password_constraint_layout"
+			app:layout_constraintTop_toBottomOf="@+id/email_constraint_layout" />
+	
+		<Button
+			android:id="@+id/signin_button"
+			android:layout_width="@dimen/sign_in_activity_signin_button_width"
+			android:layout_height="@dimen/sign_in_activity_signin_button_height"
+			android:layout_marginTop="@dimen/sign_in_activity_signin_button_margin_top"
+			android:background="@drawable/sign_in_activity_signin_button_ripple"
+			android:gravity="center"
+			android:text="@string/sign_in_activity_signin_button_text"
+			android:textColor="@color/sign_in_activity_signin_button_text_color"
+			android:textSize="@dimen/sign_in_activity_signin_button_text_size"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintRight_toRightOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/forgot_password_button"
+			tools:layout_editor_absoluteX="54dp"
+			tools:layout_editor_absoluteY="409dp"/>
+	
+		<ImageView
+			android:id="@+id/man_user_image_view"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="@dimen/sign_in_activity_man_user_image_view_margin_top"
+			android:scaleType="center"
+			android:src="@drawable/man_user"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintRight_toRightOf="parent"
+			app:layout_constraintTop_toTopOf="parent"
+			tools:layout_editor_absoluteX="134dp"
+			tools:layout_editor_absoluteY="73dp"/>
+	
+		<ImageButton
+			android:id="@+id/ico_close_modal_button"
+			android:layout_width="@dimen/sign_in_activity_ico_close_modal_button_width"
+			android:layout_height="@dimen/sign_in_activity_ico_close_modal_button_height"
+			android:layout_marginLeft="@dimen/sign_in_activity_ico_close_modal_button_margin_start"
+			android:layout_marginTop="@dimen/sign_in_activity_ico_close_modal_button_margin_top"
+			android:background="?attr/selectableItemBackground"
+			android:src="@drawable/ico_close_modal"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintTop_toTopOf="parent"
+			tools:layout_editor_absoluteX="15dp"
+			tools:layout_editor_absoluteY="20dp"/>
+
+		<ProgressBar
+			android:id="@+id/progressBar"
+			style="?android:attr/progressBarStyle"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginStart="8dp"
+			android:layout_marginTop="8dp"
+			android:layout_marginEnd="8dp"
+			android:layout_marginBottom="8dp"
+			app:layout_constraintBottom_toTopOf="@+id/signin_button"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintHorizontal_bias="0.498"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toTopOf="parent"
+			app:layout_constraintVertical_bias="0.714" />
+	</android.support.constraint.ConstraintLayout>
+</layout>

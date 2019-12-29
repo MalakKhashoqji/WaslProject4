@@ -1,0 +1,86 @@
+<layout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools">
+
+	<data/>
+
+	<android.support.constraint.ConstraintLayout
+		android:id="@+id/feed_constraint_layout"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:background="@color/events_home_activity_feed_constraint_layout_background_color">
+	
+		<android.support.v7.widget.RecyclerView
+			android:id="@+id/view_recycler_view"
+			android:layout_width="0dp"
+			android:layout_height="0dp"
+			android:layout_marginTop="@dimen/events_home_activity_view_recycler_view_margin_top"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintRight_toRightOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/upcoming_button"
+			tools:layout_editor_absoluteX="0dp"
+			tools:layout_editor_absoluteY="119dp"
+			tools:listitem="@layout/item1_view_holder"/>
+	
+		<Button
+			android:id="@+id/attending_button"
+			android:layout_width="@dimen/events_home_activity_attending_button_width"
+			android:layout_height="@dimen/events_home_activity_attending_button_height"
+			android:layout_marginRight="@dimen/events_home_activity_attending_button_margin_end"
+			android:layout_marginTop="@dimen/events_home_activity_attending_button_margin_top"
+			android:alpha="0.7"
+			android:background="?attr/selectableItemBackground"
+			android:gravity="center"
+			android:text="@string/events_home_activity_attending_button_text"
+			android:textColor="@color/events_home_activity_attending_button_text_color_selector"
+			android:textSize="@dimen/events_home_activity_attending_button_text_size"
+			app:layout_constraintRight_toRightOf="parent"
+			app:layout_constraintTop_toTopOf="parent"
+			tools:layout_editor_absoluteX="240dp"
+			tools:layout_editor_absoluteY="88dp"/>
+	
+		<Button
+			android:id="@+id/attending_two_button"
+			android:layout_width="@dimen/events_home_activity_attending_two_button_width"
+			android:layout_height="@dimen/events_home_activity_attending_two_button_height"
+			android:layout_marginRight="@dimen/events_home_activity_attending_two_button_margin_end"
+			android:layout_marginTop="@dimen/events_home_activity_attending_two_button_margin_top"
+			android:alpha="0.7"
+			android:background="?attr/selectableItemBackground"
+			android:gravity="center"
+			android:text="@string/events_home_activity_attending_two_button_text"
+			android:textColor="@color/events_home_activity_attending_two_button_text_color_selector"
+			android:textSize="@dimen/events_home_activity_attending_two_button_text_size"
+			app:layout_constraintRight_toLeftOf="@+id/attending_button"
+			app:layout_constraintTop_toTopOf="parent"
+			tools:layout_editor_absoluteX="153dp"
+			tools:layout_editor_absoluteY="88dp"/>
+	
+		<Button
+			android:id="@+id/upcoming_button"
+			android:layout_width="@dimen/events_home_activity_upcoming_button_width"
+			android:layout_height="@dimen/events_home_activity_upcoming_button_height"
+			android:layout_marginLeft="@dimen/events_home_activity_upcoming_button_margin_start"
+			android:layout_marginTop="@dimen/events_home_activity_upcoming_button_margin_top"
+			android:alpha="0.7"
+			android:background="?attr/selectableItemBackground"
+			android:gravity="center"
+			android:text="@string/events_home_activity_upcoming_button_text"
+			android:textColor="@color/events_home_activity_upcoming_button_text_color_selector"
+			android:textSize="@dimen/events_home_activity_upcoming_button_text_size"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintTop_toTopOf="parent"
+			tools:layout_editor_absoluteX="55dp"
+			tools:layout_editor_absoluteY="88dp"/>
+	
+		<android.support.v7.widget.Toolbar
+			android:id="@+id/toolbar"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintRight_toRightOf="parent"
+			app:layout_constraintTop_toTopOf="parent"/>
+	</android.support.constraint.ConstraintLayout>
+</layout>

@@ -1,0 +1,10 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<stroke
+		android:color="@color/sign_up_activity_oval_two_constraint_layout_border_color"
+		android:width="@dimen/sign_up_activity_oval_two_constraint_layout_border_size"/>
+
+	<corners android:radius="@dimen/sign_up_activity_oval_two_constraint_layout_radius"/>
+
+	<solid android:color="@color/sign_up_activity_oval_two_constraint_layout_background_color"/>
+</shape>

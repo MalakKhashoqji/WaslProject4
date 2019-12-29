@@ -1,0 +1,45 @@
+<layout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools">
+
+	<data/>
+
+	<android.support.constraint.ConstraintLayout
+		android:id="@+id/expandable_constraint_layout"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:background="@color/serach_events_activity_expandable_constraint_layout_background_color">
+	
+		<android.support.v7.widget.SearchView
+			android:id="@+id/search_search_view"
+			android:layout_width="@dimen/serach_events_activity_search_search_view_width"
+			android:layout_height="wrap_content"
+			android:layout_marginRight="@dimen/serach_events_activity_search_search_view_margin_end"
+			android:layout_marginTop="@dimen/serach_events_activity_search_search_view_margin_top"
+			app:layout_constraintRight_toRightOf="parent"
+			app:layout_constraintTop_toTopOf="parent"
+			tools:layout_editor_absoluteX="41dp"
+			tools:layout_editor_absoluteY="73dp"/>
+	
+		<android.support.v7.widget.RecyclerView
+			android:id="@+id/view_recycler_view"
+			android:layout_width="0dp"
+			android:layout_height="@dimen/serach_events_activity_view_recycler_view_height"
+			android:layout_marginTop="@dimen/serach_events_activity_view_recycler_view_margin_top"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintRight_toRightOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/search_search_view"
+			tools:layout_editor_absoluteX="0dp"
+			tools:layout_editor_absoluteY="122dp"
+			tools:listitem="@layout/item_view_holder"/>
+	
+		<android.support.v7.widget.Toolbar
+			android:id="@+id/toolbar"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintRight_toRightOf="parent"
+			app:layout_constraintTop_toTopOf="parent"/>
+	</android.support.constraint.ConstraintLayout>
+</layout>

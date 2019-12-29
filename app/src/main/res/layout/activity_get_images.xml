@@ -1,0 +1,313 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/feed_constraint_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/event_details_activity_feed_constraint_layout_background_color">
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/view_constraint_layout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/event_imgslider_constraint_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:id="@+id/event_img"
+                    android:layout_width="425dp"
+                    android:layout_height="213dp"
+                    android:layout_marginBottom="8dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/slider___photo_1_4"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </android.support.constraint.ConstraintLayout>
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/forwho_row_constraint_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/event_details_activity_forwho_row_constraint_layout_height"
+                android:layout_marginLeft="@dimen/event_details_activity_forwho_row_constraint_layout_margin_start"
+                android:layout_marginTop="@dimen/event_details_activity_forwho_row_constraint_layout_margin_top"
+                android:layout_marginRight="@dimen/event_details_activity_forwho_row_constraint_layout_margin_end"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/event_imgslider_constraint_layout">
+
+                <TextView
+                    android:id="@+id/for_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:gravity="start"
+                    android:lineSpacingMultiplier="1.26"
+                    android:text="@string/event_details_activity_for_text_view_text"
+                    android:textColor="@color/event_details_activity_for_text_view_text_color"
+                    android:textSize="@dimen/event_details_activity_for_text_view_text_size"
+                    app:layout_constraintStart_toEndOf="@+id/oval_image_view"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/for_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="@dimen/event_details_activity_amelie_nmason_text_view_margin_top"
+                    android:layout_marginRight="@dimen/event_details_activity_amelie_nmason_text_view_margin_end"
+                    android:gravity="start"
+                    android:lineSpacingMultiplier="1.18"
+                    android:text="@string/event_details_activity_amelie_nmason_text_view_text"
+                    android:textColor="@color/event_details_activity_amelie_nmason_text_view_text_color"
+                    android:textSize="@dimen/event_details_activity_amelie_nmason_text_view_text_size"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/oval_image_view"
+                    app:layout_constraintTop_toBottomOf="@+id/for_text_view" />
+
+                <ImageView
+                    android:id="@+id/oval_image_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_marginStart="8dp"
+                    android:scaleType="center"
+                    android:src="@drawable/oval"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/group_image_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="center"
+                    android:src="@drawable/group_6"
+                    app:layout_constraintBottom_toBottomOf="@+id/oval_image_view"
+                    app:layout_constraintEnd_toEndOf="@+id/oval_image_view"
+                    app:layout_constraintStart_toStartOf="@+id/oval_image_view"
+                    app:layout_constraintTop_toTopOf="@+id/oval_image_view" />
+            </android.support.constraint.ConstraintLayout>
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/addres_row_constraint_layout"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/event_details_activity_addres_row_constraint_layout_height"
+                android:layout_marginLeft="@dimen/event_details_activity_addres_row_constraint_layout_margin_start"
+                android:layout_marginRight="@dimen/event_details_activity_addres_row_constraint_layout_margin_end"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/forwho_row_constraint_layout">
+
+                <TextView
+                    android:id="@+id/address_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="@dimen/event_details_activity_address_text_view_margin_top"
+                    android:gravity="start"
+                    android:lineSpacingMultiplier="1.26"
+                    android:text="@string/event_details_activity_address_text_view_text"
+                    android:textColor="@color/event_details_activity_address_text_view_text_color"
+                    android:textSize="@dimen/event_details_activity_address_text_view_text_size"
+                    app:layout_constraintStart_toEndOf="@+id/oval_two_image_view"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/adress_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="61dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="@dimen/event_details_activity_greyfriars_road_text_view_margin_top"
+                    android:layout_marginRight="@dimen/event_details_activity_greyfriars_road_text_view_margin_end"
+                    android:gravity="start"
+                    android:lineSpacingMultiplier="1.18"
+                    android:text="@string/event_details_activity_greyfriars_road_text_view_text"
+                    android:textColor="@color/event_details_activity_greyfriars_road_text_view_text_color"
+                    android:textSize="@dimen/event_details_activity_greyfriars_road_text_view_text_size"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/oval_two_image_view"
+                    app:layout_constraintTop_toBottomOf="@+id/address_text_view" />
+
+                <ImageView
+                    android:id="@+id/oval_two_image_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/event_details_activity_oval_two_image_view_margin_start"
+                    android:layout_marginTop="@dimen/event_details_activity_oval_two_image_view_margin_top"
+                    android:scaleType="center"
+                    android:src="@drawable/oval"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/group_two_image_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="center"
+                    android:src="@drawable/group_4"
+                    app:layout_constraintBottom_toBottomOf="@+id/oval_two_image_view"
+                    app:layout_constraintEnd_toEndOf="@+id/oval_two_image_view"
+                    app:layout_constraintStart_toStartOf="@+id/oval_two_image_view"
+                    app:layout_constraintTop_toTopOf="@+id/oval_two_image_view" />
+            </android.support.constraint.ConstraintLayout>
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/time_row_constraint_layout"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/event_details_activity_time_row_constraint_layout_height"
+                android:layout_marginLeft="@dimen/event_details_activity_addres_row_constraint_layout_margin_start"
+                android:layout_marginRight="@dimen/event_details_activity_addres_row_constraint_layout_margin_end"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/addres_row_constraint_layout">
+
+                <TextView
+                    android:id="@+id/time_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="@dimen/event_details_activity_time_text_view_margin_top"
+                    android:gravity="start"
+                    android:lineSpacingMultiplier="1.26"
+                    android:text="@string/event_details_activity_time_text_view_text"
+                    android:textColor="@color/event_details_activity_time_text_view_text_color"
+                    android:textSize="@dimen/event_details_activity_time_text_view_text_size"
+                    app:layout_constraintStart_toEndOf="@+id/oval_three_image_view"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/Time_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="@dimen/event_details_activity_greyfriars_road_two_text_view_margin_top"
+                    android:layout_marginRight="@dimen/event_details_activity_greyfriars_road_two_text_view_margin_end"
+                    android:gravity="start"
+                    android:lineSpacingMultiplier="1.18"
+                    android:text="@string/event_details_activity_greyfriars_road_two_text_view_text"
+                    android:textColor="@color/event_details_activity_greyfriars_road_two_text_view_text_color"
+                    android:textSize="@dimen/event_details_activity_greyfriars_road_two_text_view_text_size"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/oval_three_image_view"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/oval_three_image_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/event_details_activity_oval_three_image_view_margin_start"
+                    android:layout_marginTop="@dimen/event_details_activity_oval_three_image_view_margin_top"
+                    android:scaleType="center"
+                    android:src="@drawable/oval"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:layout_editor_absoluteX="16dp"
+                    tools:layout_editor_absoluteY="16dp" />
+
+                <ImageView
+                    android:id="@+id/clock_circular_outline_image_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="center"
+                    android:src="@drawable/clock_circular_outline"
+                    app:layout_constraintBottom_toBottomOf="@+id/oval_three_image_view"
+                    app:layout_constraintEnd_toEndOf="@+id/oval_three_image_view"
+                    app:layout_constraintStart_toStartOf="@+id/oval_three_image_view"
+                    app:layout_constraintTop_toTopOf="@+id/oval_three_image_view" />
+            </android.support.constraint.ConstraintLayout>
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/about_row_constraint_layout"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="92dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/time_row_constraint_layout"
+                tools:ignore="MissingConstraints">
+
+                <View
+                    android:id="@+id/oval_constraint_layout"
+                    android:layout_width="@dimen/event_details_activity_oval_constraint_layout_width"
+                    android:layout_height="@dimen/event_details_activity_oval_constraint_layout_height"
+                    android:layout_marginLeft="@dimen/event_details_activity_oval_constraint_layout_margin_start"
+                    android:layout_marginTop="@dimen/event_details_activity_oval_constraint_layout_margin_top"
+                    android:background="@drawable/event_details_activity_oval_constraint_layout_background"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:layout_editor_absoluteX="16dp"
+                    tools:layout_editor_absoluteY="16dp" />
+
+                <ImageView
+                    android:id="@+id/group_three_image_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/event_details_activity_group_three_image_view_margin_start"
+                    android:layout_marginTop="@dimen/event_details_activity_group_three_image_view_margin_top"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:scaleType="center"
+                    android:src="@drawable/group_5"
+                    app:layout_constraintBottom_toBottomOf="@+id/oval_constraint_layout"
+                    app:layout_constraintEnd_toEndOf="@+id/oval_constraint_layout"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/about_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="@dimen/event_details_activity_about_text_view_margin_top"
+                    android:gravity="start"
+                    android:lineSpacingMultiplier="1.26"
+                    android:text="@string/event_details_activity_about_text_view_text"
+                    android:textColor="@color/event_details_activity_about_text_view_text_color"
+                    android:textSize="@dimen/event_details_activity_about_text_view_text_size"
+                    app:layout_constraintStart_toEndOf="@+id/oval_constraint_layout"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/Desc_txt"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/event_details_activity_lorem_ipsum_dolor_si_text_view_margin_top"
+                    android:layout_marginEnd="8dp"
+                    android:gravity="start"
+                    android:lineSpacingMultiplier="1.18"
+                    android:text="@string/event_details_activity_lorem_ipsum_dolor_si_text_view_text"
+                    android:textColor="@color/event_details_activity_lorem_ipsum_dolor_si_text_view_text_color"
+                    android:textSize="@dimen/event_details_activity_lorem_ipsum_dolor_si_text_view_text_size"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/oval_constraint_layout"
+                    app:layout_constraintTop_toBottomOf="@+id/about_text_view" />
+            </android.support.constraint.ConstraintLayout>
+
+        </android.support.constraint.ConstraintLayout>
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

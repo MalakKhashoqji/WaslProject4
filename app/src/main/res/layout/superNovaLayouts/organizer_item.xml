@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data/>
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/item"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/item_view_holder_item_height"
+        android:background="@color/item_view_holder_item_background_color">
+
+        <ImageView
+            android:id="@+id/group_image_view"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/item_view_holder_group_image_view_margin_start"
+            android:layout_marginRight="@dimen/item_view_holder_group_image_view_margin_end"
+            android:scaleType="center"
+            android:src="@drawable/group_2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toRightOf="@+id/copenhagen_denmark_text_view"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="328dp"
+            tools:layout_editor_absoluteY="45dp"/>
+
+        <TextView
+            android:id="@+id/jose_edwards_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/item_view_holder_jose_edwards_text_view_margin_start"
+            android:layout_marginTop="@dimen/item_view_holder_jose_edwards_text_view_margin_top"
+            android:fontFamily="@font/font_roboto_light"
+            android:gravity="start"
+            android:text="@string/item_view_holder_jose_edwards_text_view_text"
+            android:textColor="@color/item_view_holder_jose_edwards_text_view_text_color"
+            android:textSize="@dimen/item_view_holder_jose_edwards_text_view_text_size"
+            app:layout_constraintLeft_toRightOf="@+id/layer1_image_view"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="100dp"
+            tools:layout_editor_absoluteY="31dp"/>
+
+        <TextView
+            android:id="@+id/copenhagen_denmark_text_view"
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/item_view_holder_copenhagen_denmark_text_view_margin_start"
+            android:layout_marginTop="@dimen/item_view_holder_copenhagen_denmark_text_view_margin_top"
+            android:fontFamily="@font/font_roboto_light"
+            android:gravity="start"
+            android:text="@string/item_view_holder_copenhagen_denmark_text_view_text"
+            android:textColor="@color/item_view_holder_copenhagen_denmark_text_view_text_color"
+            android:textSize="@dimen/item_view_holder_copenhagen_denmark_text_view_text_size"
+            app:layout_constraintLeft_toRightOf="@+id/layer1_image_view"
+            app:layout_constraintTop_toBottomOf="@+id/jose_edwards_text_view" />
+
+        <ImageView
+            android:id="@+id/layer1_image_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/item_view_holder_layer1_image_view_margin_start"
+            android:layout_marginRight="@dimen/item_view_holder_layer1_image_view_margin_end"
+            android:scaleType="center"
+            android:src="@drawable/layer_1_4"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@+id/jose_edwards_text_view"
+            app:layout_constraintTop_toTopOf="parent" />
+    </android.support.constraint.ConstraintLayout>
+</layout>

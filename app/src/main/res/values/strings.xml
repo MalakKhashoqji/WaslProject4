@@ -1,0 +1,137 @@
+<resources>
+
+    <!-- Project level resources -->
+    <string name="app_name">Wasl</string>
+
+    <!--navigation drawers -->
+    <string name="title_home">Home</string>
+    <string name="title_addEvent">Add Event</string>
+    <string name="title_allEvents">My Events</string>
+
+    <!--departments and deanship array-->
+    <string-array name="departments">
+        <item>College of Computer Science and Engineering</item>
+        <item>college of Engineering</item>
+        <item>Deanship of Information Technology</item>
+        <item>Deanship of Student Affairs</item>
+    </string-array>
+
+    <!--errors messages-->
+    <string name="input_error_name">name required</string>
+    <string name="input_error_email">email required</string>
+    <string name="input_error_password">password required</string>
+    <string name="input_error_phone">phone required</string>
+    <string name="input_error_password_length">password should be atleast 6 characters long</string>
+    <string name="input_error_phone_invalid">enter a valid phone number</string>
+    <string name="registration_success">Registered Successfully</string>
+    <string name="input_error_email_invalid">enter a valid email</string>
+
+
+    <!-- RegisterTwoActivity -->
+    <string name="register_two_activity_title"></string>
+    <string name="register_two_activity_copyright">Copyright © 2019 Wasl..</string>
+    <string name="register_two_activity_copyright_text_view_text">Copyright © 2019 Wasl. All rights reserved.</string>
+    <string name="register_two_activity_solution_text_view_text">The solution</string>
+    <string name="register_two_activity_signup_button_text">SIGN UP</string>
+    <string name="register_two_activity_login_button_text">LOG IN</string>
+
+    <!-- SignUpActivity -->
+    <string name="sign_up_activity_title"></string>
+    <string name="sign_up_activity_id_edit_text_hint">ID</string>
+    <string name="sign_up_activity_username_edit_text_hint">Username</string>
+    <string name="sign_up_activity_email_address_edit_text_hint">Email Address</string>
+    <string name="sign_up_activity_password_edit_text_hint">Password</string>
+    <string name="sign_up_activity_confirm_password_edit_text_hint">Confirm password</string>
+    <string name="sign_up_activity_male_text_view_text">Male</string>
+    <string name="sign_up_activity_female_text_view_text">Female</string>
+    <string name="sign_up_activity_select_your_college_text_view_text">Select your College</string>
+    <string name="sign_up_activity_select_your_departme_text_view_text">select your department</string>
+    <string name="sign_up_activity_buttons_button_text">SIGN UP</string>
+    <string name="sign_up_activity_segmented_control_tab_bar_item_one_text">AS STUDENT OR STAFF</string>
+    <string name="sign_up_activity_segmented_control_tab_bar_item_two_text">AS ORGANIZER</string>
+
+    <!-- SignUpOrganizerActivity -->
+    <string name="sign_up_organizer_activity_title"></string>
+    <string name="sign_up_organizer_activity_id_edit_text_hint">ID</string>
+    <string name="sign_up_organizer_activity_username_edit_text_hint">Username</string>
+    <string name="sign_up_organizer_activity_email_address_edit_text_hint">Email Address</string>
+    <string name="sign_up_organizer_activity_password_edit_text_hint">Password</string>
+    <string name="sign_up_organizer_activity_phone_edit_text_hint">Phone Number</string>
+    <string name="sign_up_organizer_activity_confirm_password_edit_text_hint">Confirm password</string>
+    <string name="sign_up_organizer_activity_select_your_deanship_text_view_text">Select your deanship</string>
+    <string name="sign_up_organizer_activity_buttons_button_text">SIGN UP</string>
+    <string name="sign_up_organizer_activity_male_text_view_text">Male</string>
+    <string name="sign_up_organizer_activity_female_text_view_text">Female</string>
+    <string name="sign_up_organizer_activity_segmented_control_tab_bar_item_one_text">AS STUDENT OR STAFF</string>
+    <string name="sign_up_organizer_activity_segmented_control_tab_bar_item_two_text">AS ORGANIZER</string>
+
+    <!-- SignInActivity -->
+    <string name="sign_in_activity_title"></string>
+    <string name="sign_in_activity_forgot_password_button_text">Forgot password?</string>
+    <string name="sign_in_activity_username_id_edit_text_hint">Username/ID</string>
+    <string name="sign_in_activity_password_edit_text_hint">Password</string>
+    <string name="sign_in_activity_signin_button_text">LOG IN</string>
+
+    <!-- EventsHomeActivity -->
+    <string name="events_home_activity_title">Event</string>
+    <string name="events_home_activity_menu_item_title">Item</string>
+    <string name="item1_view_holder_eventname_text_view_text">The Lalit</string>
+    <string name="item1_view_holder_eventloc_text_view_text">Mumbai, India</string>
+    <string name="item1_view_holder_eventdate_text_view_text">28 Nov\n2018</string>
+    <string name="item1_view_holder_eventdesc_text_view_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</string>
+    <string name="item1_view_holder_providername_text_view_text">Jordan Robinson</string>
+    <string name="item1_view_holder_eventposttime_text_view_text">Today, 1:45 PM</string>
+    <string name="item1_two_view_holder_eventname_text_view_text">The Lalit</string>
+    <string name="item1_two_view_holder_eventloc_text_view_text">Mumbai, India</string>
+    <string name="item1_two_view_holder_eventdate_text_view_text">28 Nov\n2018</string>
+    <string name="item1_two_view_holder_eventdesc_text_view_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</string>
+    <string name="item1_two_view_holder_providername_text_view_text">Jordan Robinson</string>
+    <string name="item1_two_view_holder_eventposttime_text_view_text">Today, 1:45 PM</string>
+    <string name="item1_three_view_holder_eventname_text_view_text">The Lalit</string>
+    <string name="item1_three_view_holder_eventloc_text_view_text">Mumbai, India</string>
+    <string name="item1_three_view_holder_eventdate_text_view_text">28 Nov\n2018</string>
+    <string name="item1_three_view_holder_eventdesc_text_view_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</string>
+    <string name="item1_three_view_holder_providername_text_view_text">Jordan Robinson</string>
+    <string name="item1_three_view_holder_eventposttime_text_view_text">Today, 1:45 PM</string>
+    <string name="events_home_activity_attending_button_text">Attended</string>
+    <string name="events_home_activity_attending_two_button_text">Attending</string>
+    <string name="events_home_activity_upcoming_button_text">Upcoming</string>
+
+    <!-- SerachEventsActivity -->
+    <string name="serach_events_activity_title">Search Event</string>
+    <string name="serach_events_activity_menu_item_title">Search</string>
+    <string name="item_view_holder_jose_edwards_text_view_text">Jose Edwards</string>
+    <string name="item_view_holder_copenhagen_denmark_text_view_text">Copenhagen, Denmark</string>
+    <string name="item_two_view_holder_karen_stewart_text_view_text">Karen Stewart</string>
+    <string name="item_two_view_holder_new_york_usa_text_view_text">New York, USA</string>
+
+    <!-- EventDetailsActivity -->
+    <string name="event_details_activity_title">Event Detalis</string>
+    <string name="event_details_activity_menu_item_title">Home</string>
+    <string name="event_details_activity_jordan_robinson_button_text">Jordan Robinson</string>
+    <string name="event_details_activity_today145_pm_text_view_text">Today, 1:45 PM</string>
+    <string name="event_details_activity_raised_button_button_text">Follow</string>
+    <string name="event_details_activity_for_text_view_text">For</string>
+    <string name="event_details_activity_amelie_nmason_text_view_text">Amelie N Mason</string>
+    <string name="event_details_activity_address_text_view_text">Address</string>
+    <string name="event_details_activity_greyfriars_road_text_view_text">47 Greyfriars Road, CAPHEATON\nUnited Kingdom\nNE19 5PJ</string>
+    <string name="event_details_activity_time_text_view_text">Time</string>
+    <string name="event_details_activity_greyfriars_road_two_text_view_text">1PM-2PM</string>
+    <string name="event_details_activity_about_text_view_text">About</string>
+    <string name="event_details_activity_lorem_ipsum_dolor_si_text_view_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eget nunc condimentum, volutpat diam in, molestie nisl. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris aliquet eros nec diam sodales mollis,  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eget nunc condimentum, volutpat diam in, molestie nisl. Pellentesque habitant morbi tristique senectus et netu.</string>
+    <string name="event_details_activity_raised_button_two_button_text">Join</string>
+    <string name="event_details_activity_raised_button_three_button_text">I Need Help</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_home_page">HomePage</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_studet_staff_home_page">studet_staff_homePage</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+</resources>
